@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="366e629c-4280-4998-8902-29ae98c2cc0d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/Entropy.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../entropy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../entropy2d.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../entropy2dSpeedUp.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../img5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c++/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../c++/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c++/cmake-build-debug/CMakeFiles/entropy2d.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../c++/cmake-build-debug/CMakeFiles/entropy2d.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c++/cmake-build-debug/entropy2d" beforeDir="false" afterPath="$PROJECT_DIR$/../c++/cmake-build-debug/entropy2d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c++/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../c++/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,10 +19,11 @@
     <SUITE FILE_PATH="coverage/Entropy$entropy2dCounter.coverage" NAME="entropy2dCounter Coverage Results" MODIFIED="1566866079558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$entropy.coverage" NAME="entropy Coverage Results" MODIFIED="1566866464370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$entropy2d.coverage" NAME="entropy2d Coverage Results" MODIFIED="1566866504274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1566871889288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Entropy$entropy.coverage" NAME="entropy Coverage Results" MODIFIED="1566865657174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Entropy$entropy2dSpeedUp.coverage" NAME="entropy2dSpeedUp Coverage Results" MODIFIED="1566865938317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Entropy$entropy2d.coverage" NAME="entropy2d Coverage Results" MODIFIED="1566865705001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python$entropy2dSpeedUp.coverage" NAME="entropy2dSpeedUp Coverage Results" MODIFIED="1566866589833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$entropy2dSpeedUp.coverage" NAME="entropy2dSpeedUp Coverage Results" MODIFIED="1566871547468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$entropy2dCounter.coverage" NAME="entropy2dCounter Coverage Results" MODIFIED="1566866612906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -94,29 +86,30 @@
     <session id="2139020973">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="5" />
+          <entry key="py" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="5" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="57" />
+          <entry key="py" value="331" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="57" />
+          <entry key="Python" value="331" />
         </counts>
       </usages-collector>
     </session>
@@ -124,15 +117,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/entropy2dMyFij.py">
+        <entry file="file://$PROJECT_DIR$/drawPlot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="107" column="14" lean-forward="true" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
+            <state relative-caret-position="435">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -146,6 +146,7 @@
         <option value="$PROJECT_DIR$/entropy2dCounter.py" />
         <option value="$PROJECT_DIR$/entropy2dMyFij.py" />
         <option value="$PROJECT_DIR$/entropy2dSpeedUp.py" />
+        <option value="$PROJECT_DIR$/drawPlot.py" />
       </list>
     </option>
   </component>
@@ -157,9 +158,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1000" />
-    <option name="y" value="30" />
+    <option name="y" value="-5" />
     <option name="width" value="920" />
-    <option name="height" value="1050" />
+    <option name="height" value="1085" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -183,7 +184,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/entropy2dMyFij.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/drawPlot.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -206,7 +207,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.entropy2dMyFij">
+  <component name="RunManager" selected="Python.drawPlot">
+    <configuration name="drawPlot" type="PythonConfigurationType" factoryName="Python">
+      <module name="Entropy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda2/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drawPlot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="entropy" type="PythonConfigurationType" factoryName="Python">
       <module name="Entropy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -323,6 +346,7 @@
       <item itemvalue="Python.entropy2dSpeedUp" />
       <item itemvalue="Python.entropy2dCounter" />
       <item itemvalue="Python.entropy2dMyFij" />
+      <item itemvalue="Python.drawPlot" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -342,12 +366,12 @@
     <frame x="81" y="-5" width="1839" height="1085" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17610769" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20833333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3275862" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3265086" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -381,9 +405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -391,19 +412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="76" column="31" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/entropy2dSpeedUp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="58" column="24" lean-forward="true" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -411,16 +419,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="71" column="31" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/entropy2dMyFij.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="604">
-          <caret line="107" column="14" lean-forward="true" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
+          <caret line="107" column="14" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entropy2dSpeedUp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+          <folding>
+            <element signature="e#15#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drawPlot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

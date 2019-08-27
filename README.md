@@ -27,6 +27,10 @@ I write the code for calculating Fij with my algorithm in this file.The performa
 The whole project is arranged by CMake. So if you want to run it,you must have a CMake environment on your computer.The only dependce library is OpenCV.The exe file is under `cmake-build-debug` folder,name is `entropy2d`.
 
 ## Tips
-After many tests,C++ project has a best performance. So if you can satisify the requirements for c++ project mentioned above,it's best to use it.If not, you can choose the python code `entropy2dSpeedUp.py`,it will provide almost the greatest performance.
+After many tests,C++ project has a best performance,which is shown as below.
+
+![](https://github.com/zhaoxuhui/Entropy/compare.png)
+
+So if you can satisify the requirements for c++ project mentioned above,it's best to use it.If not, you can choose the python code `entropy2dSpeedUp.py`,it will provide almost the greatest performance.
 
 Last but not least,if you have any thing to say, don't forget to open an issue or connect me.

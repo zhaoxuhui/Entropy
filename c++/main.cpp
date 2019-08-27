@@ -137,7 +137,7 @@ double calcEntropy2d(Mat img, int win_w = 3, int win_h = 3) {
 
 
 int main() {
-    Mat img = imread("../../imgs/img4.jpg", IMREAD_GRAYSCALE);
+    Mat img = imread("../../imgs/img11.jpg", IMREAD_GRAYSCALE);
     clock_t t1 = clock();
     double H = calcEntropy2d(img, 3, 3);
     clock_t t2 = clock();
