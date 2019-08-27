@@ -22,8 +22,8 @@ def calcEntropy(img):
 
 
 if __name__ == '__main__':
-    img1 = cv2.imread("img1.jpg", cv2.IMREAD_GRAYSCALE)
-    img2 = cv2.imread("img2.jpg", cv2.IMREAD_GRAYSCALE)
+    img1 = cv2.imread("../imgs/img1.jpg", cv2.IMREAD_GRAYSCALE)
+    img2 = cv2.imread("../imgs/img2.jpg", cv2.IMREAD_GRAYSCALE)
 
     entropy1 = calcEntropy(img1)
     entropy2 = calcEntropy(img2)

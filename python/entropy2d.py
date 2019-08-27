@@ -73,8 +73,8 @@ def calcEntropy2d(img, win_w=3, win_h=3, threadNum=6):
 
 
 if __name__ == '__main__':
-    img1 = cv2.imread("img3.jpg", cv2.IMREAD_GRAYSCALE)
-    img2 = cv2.imread("img4.jpg", cv2.IMREAD_GRAYSCALE)
+    img1 = cv2.imread("../imgs/img3.jpg", cv2.IMREAD_GRAYSCALE)
+    img2 = cv2.imread("../imgs/img4.jpg", cv2.IMREAD_GRAYSCALE)
     H1 = calcEntropy2d(img1, 3, 3)
     H2 = calcEntropy2d(img2, 3, 3)
     print H1, H2
