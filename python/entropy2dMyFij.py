@@ -101,7 +101,7 @@ def calcEntropy2dSpeedUp(img, win_w=3, win_h=3):
 
 
 if __name__ == '__main__':
-    img1 = cv2.imread("../imgs/img4.jpg", cv2.IMREAD_GRAYSCALE)
+    img1 = cv2.imread("../imgs/img11.jpg", cv2.IMREAD_GRAYSCALE)
     t1 = time.time()
     H1 = calcEntropy2dSpeedUp(img1, 3, 3)
     t2 = time.time()
