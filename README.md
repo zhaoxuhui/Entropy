@@ -29,7 +29,7 @@ The whole project is arranged by CMake. So if you want to run it,you must have a
 ## Tips
 After many tests,C++ project has a best performance,which is shown as below.
 
-![](https://github.com/zhaoxuhui/Entropy/compare.png)
+![](https://github.com/zhaoxuhui/Entropy/blob/master/compare.png)
 
 So if you can satisify the requirements for c++ project mentioned above,it's best to use it.If not, you can choose the python code `entropy2dSpeedUp.py`,it will provide almost the greatest performance.
 
