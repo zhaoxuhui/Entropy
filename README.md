@@ -7,7 +7,7 @@ code for calculating image entropy
 
 * test images are under `imgs` folder
 
-## Python codes
+## Python codes(Python 2 & Python 3)
 ### `entropy.py`
 It contains the basic code for 1-D image entropy.
 

@@ -10,7 +10,7 @@ from numba import jit
 def calcIJ(img_patch):
     total_p = img_patch.shape[0] * img_patch.shape[1]
     if total_p % 2 != 0:
-        center_p = img_patch[img_patch.shape[0] / 2, img_patch.shape[1] / 2]
+        center_p = img_patch[int(img_patch.shape[0] / 2), int(img_patch.shape[1] / 2)]
         mean_p = (np.sum(img_patch) - center_p) / (total_p - 1)
         return (center_p, mean_p)
     else:
@@ -20,8 +20,8 @@ def calcIJ(img_patch):
 def calcEntropy2dSpeedUp(img, win_w=3, win_h=3):
     height = img.shape[0]
 
-    ext_x = win_w / 2
-    ext_y = win_h / 2
+    ext_x = int(win_w / 2)
+    ext_y = int(win_h / 2)
 
     ext_h_part = np.zeros([height, ext_x], img.dtype)
     tem_img = np.hstack((ext_h_part, img, ext_h_part))
@@ -60,5 +60,5 @@ if __name__ == '__main__':
     t1 = time.time()
     H1 = calcEntropy2dSpeedUp(img1, 3, 3)
     t2 = time.time()
-    print H1
-    print t2 - t1, 's'
+    print(H1)
+    print(t2 - t1, 's')

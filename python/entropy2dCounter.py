@@ -10,7 +10,7 @@ from numba import jit
 def calcIJ(img_patch):
     total_p = img_patch.shape[0] * img_patch.shape[1]
     if total_p % 2 != 0:
-        center_p = img_patch[img_patch.shape[0] / 2, img_patch.shape[1] / 2]
+        center_p = img_patch[int(img_patch.shape[0] / 2), int(img_patch.shape[1] / 2)]
         mean_p = (np.sum(img_patch) - center_p) / (total_p - 1)
         return (center_p, mean_p)
     else:
@@ -20,8 +20,8 @@ def calcIJ(img_patch):
 def calcEntropy2dSpeedUp(img, win_w=3, win_h=3):
     height = img.shape[0]
 
-    ext_x = win_w / 2
-    ext_y = win_h / 2
+    ext_x = int(win_w / 2)
+    ext_y = int(win_h / 2)
 
     ext_h_part = np.zeros([height, ext_x], img.dtype)
     tem_img = np.hstack((ext_h_part, img, ext_h_part))
@@ -40,13 +40,16 @@ def calcEntropy2dSpeedUp(img, win_w=3, win_h=3):
             ij = calcIJ(patch)
             IJ.append(ij)
     t2 = time.time()
-    print 'calc IJ time', t2 - t1
+    print
+    'calc IJ time', t2 - t1
 
-    print 'start calculating...'
+    print
+    'start calculating...'
     t3 = time.time()
     Fij = Counter(IJ).items()
     t4 = time.time()
-    print 'fij time', t4 - t3
+    print
+    'fij time', t4 - t3
 
     t5 = time.time()
     # 第二耗时的步骤，计算各二元组出现的概率
@@ -54,7 +57,8 @@ def calcEntropy2dSpeedUp(img, win_w=3, win_h=3):
     for item in Fij:
         Pij.append(item[1] * 1.0 / (new_height * new_width))
     t6 = time.time()
-    print 'pij time', t6 - t5
+    print
+    'pij time', t6 - t5
 
     t7 = time.time()
     H_tem = []
@@ -64,7 +68,8 @@ def calcEntropy2dSpeedUp(img, win_w=3, win_h=3):
 
     H = np.sum(H_tem)
     t8 = time.time()
-    print 'h tem time', t8 - t7
+    print
+    'h tem time', t8 - t7
     return H
 
 
@@ -73,6 +78,5 @@ if __name__ == '__main__':
     t1 = time.time()
     H1 = calcEntropy2dSpeedUp(img1, 3, 3)
     t2 = time.time()
-    print "\n"
-    print 'all time', t2 - t1
-    print 'H', H1
+    print('all time', t2 - t1)
+    print('H', H1)

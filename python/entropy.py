@@ -28,5 +28,5 @@ if __name__ == '__main__':
     entropy1 = calcEntropy(img1)
     entropy2 = calcEntropy(img2)
 
-    print entropy1
-    print entropy2
+    print(entropy1)
+    print(entropy2)

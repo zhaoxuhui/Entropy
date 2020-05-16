@@ -9,19 +9,19 @@ def calcIJ(img_patch):
     total_p = img_patch.shape[0] * img_patch.shape[1]
     if total_p % 2 != 0:
         tem = img_patch.flatten()
-        center_p = tem[total_p / 2]
+        center_p = tem[int(total_p / 2)]
         mean_p = (sum(tem) - center_p) / (total_p - 1)
         return (center_p, mean_p)
     else:
-        print "modify patch size"
+        print("modify patch size")
 
 
 def calcEntropy2d(img, win_w=3, win_h=3, threadNum=6):
     height = img.shape[0]
     width = img.shape[1]
 
-    ext_x = win_w / 2
-    ext_y = win_h / 2
+    ext_x = int(win_w / 2)
+    ext_y = int(win_h / 2)
 
     # 考虑滑动窗口大小，对原图进行扩边，扩展部分灰度为0
     ext_h_part = np.zeros([height, ext_x], img.dtype)
@@ -77,4 +77,4 @@ if __name__ == '__main__':
     img2 = cv2.imread("../imgs/img4.jpg", cv2.IMREAD_GRAYSCALE)
     H1 = calcEntropy2d(img1, 3, 3)
     H2 = calcEntropy2d(img2, 3, 3)
-    print H1, H2
+    print(H1, H2)
